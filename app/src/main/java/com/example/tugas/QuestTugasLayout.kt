@@ -99,7 +99,11 @@ fun HalamanUtama() {
         )
         Spacer(Modifier.height(dimensionResource(R.dimen.jarak_judul_card)))
 
-        
+        Column(
+            modifier = Modifier.weight(1f),
+            verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.jarak_antar_card))
+        ) {
+        }
     }
 }
 
