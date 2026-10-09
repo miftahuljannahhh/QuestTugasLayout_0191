@@ -106,7 +106,11 @@ fun HalamanUtama() {
             daftar.forEach { CardIdol(it) }
         }
 
-        
+        Text(
+            text = stringResource(R.string.copyright),
+            fontSize = spResource(R.dimen.ukuran_copyright),
+            color = colorResource(R.color.teks_utama)
+        )
     }
 }
 
