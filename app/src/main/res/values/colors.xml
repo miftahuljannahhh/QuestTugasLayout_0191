@@ -10,8 +10,8 @@
 
     <color name="putih">#FFFFFFFF</color>
     <color name="teks_utama">#FF2D2A32</color>
-    <color name="cyan">#FFFFF3B0</color>
-    <color name="kuning">#FFFFE0EC</color>
+    <color name="teks_telepon">#FFFFF3B0</color>
+    <color name="teks_alamat">#FFFFE0EC</color>
     <color name="card_1">#FFD8607A</color>
     <color name="card_2">#FF8E6BBF</color>
     <color name="card_3">#FF4F8FC0</color>

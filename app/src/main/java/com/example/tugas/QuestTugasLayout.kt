@@ -58,7 +58,7 @@ fun HalamanUtama() {
             warnaCard = R.color.card_1,
             fotoKanan = R.drawable.jin,
             descFoto = R.string.desc_foto_1,
-            fontNama = FontFamily.Cursive
+
         ),
         Idol(
             nama = R.string.nama_2,
@@ -154,13 +154,13 @@ fun CardIdol(data: Idol) {
                     Text(
                         text = stringResource(it),
                         fontSize = spResource(R.dimen.ukuran_detail),
-                        color = colorResource(R.color.cyan)
+                        color = colorResource(R.color.teks_telepon)
                     )
                 }
                 Text(
                     text = stringResource(data.alamat),
                     fontSize = spResource(R.dimen.ukuran_detail),
-                    color = colorResource(R.color.kuning)
+                    color = colorResource(R.color.teks_alamat)
                 )
             }
             GambarCard(data.fotoKanan, data.descFoto)
