@@ -12,5 +12,9 @@
     <string name="nama_1">Kim Seokjin</string>
     <string name="alamat_1">Gwacheon, South Korea</string>
 
+    <string name="nama_2">Jeon Wonwoo</string>
+    <string name="telp_2">017071996000</string>
+    <string name="alamat_2">Changwon, South Korea</string>
+
 
 </resources>
