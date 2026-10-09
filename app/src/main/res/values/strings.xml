@@ -2,5 +2,12 @@
     <string name="app_name">Tugas</string>
     <string name="judul">Bias Corner</string>
     <string name="subjudul">Kumpulan Bias Favorit</string>
+    <string name="copyright">Copyright, 2026</string>
+    <string name="desc_kucing">Gambar kucing</string>
+    <string name="desc_foto_1">Foto Jin</string>
+    <string name="desc_foto_2">Foto Wonwoo</string>
+    <string name="desc_foto_3">Foto Haechan</string>
+    <string name="desc_foto_4">Foto Seonghyeon</string>
 
+    
 </resources>
