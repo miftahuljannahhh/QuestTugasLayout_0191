@@ -145,6 +145,13 @@ fun CardIdol(data: Idol) {
                     fontFamily = data.fontNama,
                     color = colorResource(R.color.putih)
                 )
+                data.telepon?.let {
+                    Text(
+                        text = stringResource(it),
+                        fontSize = spResource(R.dimen.ukuran_detail),
+                        color = colorResource(R.color.cyan)
+                    )
+                }
             }
         }
     }
