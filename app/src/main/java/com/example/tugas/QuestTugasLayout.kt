@@ -152,7 +152,13 @@ fun CardIdol(data: Idol) {
                         color = colorResource(R.color.cyan)
                     )
                 }
+                Text(
+                    text = stringResource(data.alamat),
+                    fontSize = spResource(R.dimen.ukuran_detail),
+                    color = colorResource(R.color.kuning)
+                )
             }
+            GambarCard(data.fotoKanan, data.descFoto)
         }
     }
 }
