@@ -133,7 +133,12 @@ fun CardIdol(data: Idol) {
             verticalAlignment = Alignment.CenterVertically
         ) {
             GambarCard(R.drawable.kucing, R.string.desc_kucing)
-
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = dimensionResource(R.dimen.padding_teks))
+            ) {
+            }
         }
     }
 }
