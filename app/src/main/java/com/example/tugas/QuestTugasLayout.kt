@@ -132,6 +132,7 @@ fun CardIdol(data: Idol) {
                 .padding(dimensionResource(R.dimen.padding_card)),
             verticalAlignment = Alignment.CenterVertically
         ) {
+            GambarCard(R.drawable.kucing, R.string.desc_kucing)
 
         }
     }
