@@ -126,7 +126,14 @@ fun CardIdol(data: Idol) {
         shape = RoundedCornerShape(dimensionResource(R.dimen.radius_card)),
         colors = CardDefaults.cardColors(containerColor = colorResource(data.warnaCard))
     ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(dimensionResource(R.dimen.padding_card)),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
 
+        }
     }
 }
 
