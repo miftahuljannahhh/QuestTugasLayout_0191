@@ -97,7 +97,9 @@ fun HalamanUtama() {
             color = colorResource(R.color.teks_utama),
             textAlign = TextAlign.Center
         )
+        Spacer(Modifier.height(dimensionResource(R.dimen.jarak_judul_card)))
 
+        
     }
 }
 
