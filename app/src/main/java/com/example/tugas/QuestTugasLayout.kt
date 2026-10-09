@@ -83,6 +83,13 @@ fun HalamanUtama() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Spacer(Modifier.height(dimensionResource(R.dimen.jarak_atas)))
+        Text(
+            text = stringResource(R.string.judul),
+            fontSize = spResource(R.dimen.ukuran_judul),
+            fontWeight = FontWeight.Bold,
+            color = colorResource(R.color.teks_utama),
+            textAlign = TextAlign.Center
+        )
         
     }
 }
