@@ -138,6 +138,13 @@ fun CardIdol(data: Idol) {
                     .weight(1f)
                     .padding(horizontal = dimensionResource(R.dimen.padding_teks))
             ) {
+                Text(
+                    text = stringResource(data.nama),
+                    fontSize = spResource(R.dimen.ukuran_nama),
+                    fontWeight = if (data.fontNama == FontFamily.Default) FontWeight.Bold else FontWeight.Normal,
+                    fontFamily = data.fontNama,
+                    color = colorResource(R.color.putih)
+                )
             }
         }
     }
