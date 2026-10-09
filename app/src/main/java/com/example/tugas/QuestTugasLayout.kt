@@ -37,7 +37,15 @@ fun HalamanUtama() {
             descFoto = R.string.desc_foto_1,
             fontNama = FontFamily.Cursive
         ),
-
+        Idol(
+            nama = R.string.nama_2,
+            telepon = R.string.telp_2,
+            alamat = R.string.alamat_2,
+            warnaCard = R.color.card_2,
+            fotoKanan = R.drawable.wonwoo,
+            descFoto = R.string.desc_foto_2
+        ),
+        
     )
 }
 
