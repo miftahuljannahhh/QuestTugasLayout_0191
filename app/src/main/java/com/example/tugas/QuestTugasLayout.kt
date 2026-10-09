@@ -163,7 +163,10 @@ fun CardIdol(data: Idol) {
     }
 }
 
-
+@Composable
+fun GambarCard(x0: Int, x1: Int) {
+    TODO("Not yet implemented")
+}
 
 
 
