@@ -45,7 +45,15 @@ fun HalamanUtama() {
             fotoKanan = R.drawable.wonwoo,
             descFoto = R.string.desc_foto_2
         ),
-        
+        Idol(
+            nama = R.string.nama_3,
+            telepon = R.string.telp_3,
+            alamat = R.string.alamat_3,
+            warnaCard = R.color.card_3,
+            fotoKanan = R.drawable.haechan,
+            descFoto = R.string.desc_foto_3
+        ),
+
     )
 }
 
