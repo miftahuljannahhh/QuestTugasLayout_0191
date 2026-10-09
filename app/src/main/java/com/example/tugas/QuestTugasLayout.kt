@@ -24,3 +24,20 @@ fun spResource(id: Int): TextUnit {
     val dp = dimensionResource(id)
     return with(LocalDensity.current) { dp.toSp() }
 }
+
+@Composable
+fun HalamanUtama() {
+    val daftar = listOf(
+        Idol(
+            nama = R.string.nama_1,
+            telepon = null,
+            alamat = R.string.alamat_1,
+            warnaCard = R.color.card_1,
+            fotoKanan = R.drawable.jin,
+            descFoto = R.string.desc_foto_1,
+            fontNama = FontFamily.Cursive
+        ),
+
+    )
+}
+
