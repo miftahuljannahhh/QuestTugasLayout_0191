@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_layar">16dp</dimen>
+    <dimen name="jarak_atas">64dp</dimen>
+    <dimen name="jarak_judul_card">24dp</dimen>
+    <dimen name="jarak_antar_card">12dp</dimen>
+    <dimen name="padding_card">16dp</dimen>
+    <dimen name="padding_teks">12dp</dimen>
+    <dimen name="radius_card">12dp</dimen>
+    <dimen name="radius_logo">35dp</dimen>
+    <dimen name="ukuran_logo">70dp</dimen>
+    <dimen name="ukuran_judul">28sp</dimen>
+    <dimen name="ukuran_subjudul">14sp</dimen>
+    <dimen name="ukuran_nama">20sp</dimen>
+    <dimen name="ukuran_detail">13sp</dimen>
+    <dimen name="ukuran_copyright">11sp</dimen>
+</resources>
