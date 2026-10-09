@@ -90,7 +90,14 @@ fun HalamanUtama() {
             color = colorResource(R.color.teks_utama),
             textAlign = TextAlign.Center
         )
-        
+        Text(
+            text = stringResource(R.string.subjudul),
+            fontSize = spResource(R.dimen.ukuran_subjudul),
+            fontWeight = FontWeight.Bold,
+            color = colorResource(R.color.teks_utama),
+            textAlign = TextAlign.Center
+        )
+
     }
 }
 
