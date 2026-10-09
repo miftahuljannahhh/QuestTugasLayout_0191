@@ -82,7 +82,12 @@ fun HalamanUtama() {
             .padding(dimensionResource(R.dimen.padding_layar)),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Spacer(Modifier.height(dimensionResource(R.dimen.jarak_atas)))
         
+    }
+}
+
+
 
 
 
