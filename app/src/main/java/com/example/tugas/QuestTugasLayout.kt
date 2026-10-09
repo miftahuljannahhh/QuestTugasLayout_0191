@@ -114,6 +114,11 @@ fun HalamanUtama() {
     }
 }
 
+@Composable
+fun CardIdol(x0: Idol) {
+    TODO("Not yet implemented")
+}
+
 
 
 
